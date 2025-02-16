@@ -17,6 +17,12 @@ const routes = [{
     {
         path: '/blog/new',
         component: ArticleForm
+    },
+    {
+        path: '/blog/about',
+        name: 'About',
+        component: () =>
+            import ('@/views/AboutView.vue')
     }
 ]
 

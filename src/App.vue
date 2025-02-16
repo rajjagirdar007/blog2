@@ -3,11 +3,11 @@
     <nav class="main-nav">
       <div class="nav-content">
         <div class="nav-brand">
-          <router-link to="/">PeakMind</router-link>
+          <router-link to="/blog">PeakMind</router-link>
         </div>
         <div class="nav-links">
-          <router-link to="/">Home</router-link>
-          <router-link to="/about">About</router-link>
+          <router-link to="/blog">Home</router-link>
+          <router-link to="/blog/about">About</router-link>
         </div>
       </div>
     </nav>
