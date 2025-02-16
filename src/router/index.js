@@ -4,18 +4,18 @@ import ArticleDetail from '@/components/articles/ArticleDetail.vue'
 import ArticleForm from '@/components/articles/ArticleEditor.vue'
 
 const routes = [{
-        path: '/',
+        path: '/blog',
         name: 'Home',
         component: ArticleList
     },
     {
-        path: '/article/:id',
+        path: '/blog/:id',
         name: 'ArticleDetail',
         component: ArticleDetail,
         props: route => ({ articleId: route.params.id })
     },
     {
-        path: '/articles/new',
+        path: '/blog/new',
         component: ArticleForm
     }
 ]
